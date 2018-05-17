@@ -1,0 +1,33 @@
+{
+  "name": "h5-audio",
+  "version": "1.0.0",
+  "description": "web audio",
+  "main": "audio.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.qiyi.domain/html5/h5-audio.git"
+  },
+  "keywords": [
+    "audio",
+    "sound",
+    "voice",
+    "html5"
+  ],
+  "author": "朱培鑫",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-order": "^1.1.1",
+    "gulp-rename": "^1.2.2"
+  },
+  "dependencies": {
+    "gulp-uglify": "^3.0.0"
+  }
+}
