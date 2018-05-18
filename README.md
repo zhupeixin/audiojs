@@ -191,7 +191,7 @@ test.vocal(id)
 * @param {number} id - 可选 - 资源库资源ID，ID为空则对所有资源生效
 * @returns {Audio}
 */
-test.fade = function (value, endTime, cb, id)
+test.fade(value, endTime, cb, id)
 
 ```
 
